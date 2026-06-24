@@ -1,4 +1,20 @@
 import logoAsset from "@/assets/neil-logo.png.asset.json";
+import profileAsset from "@/assets/neil-profile.png.asset.json";
+import blockchainCert from "@/assets/blockchain-cert.png.asset.json";
+import buildWithAi from "@/assets/build-with-ai.jpg.asset.json";
+import itsCyber from "@/assets/its-cybersecurity.png.asset.json";
+import itsNetSec from "@/assets/its-network-sec.png.asset.json";
+import githubJs from "@/assets/github-js-workshop.png.asset.json";
+
+export const PROFILE_IMAGE = profileAsset.url;
+const CERT_COVERS: Record<string, string> = {
+  "GitHub and JavaScript Workshop": githubJs.url,
+  "IT Specialist — Network Security": itsNetSec.url,
+  "IT Specialist — Cybersecurity": itsCyber.url,
+  "Blockchain Campus Conference 2024": blockchainCert.url,
+  "Build with AI": buildWithAi.url,
+};
+export { CERT_COVERS };
 
 export const SITE = {
   name: "Neil Ian",
