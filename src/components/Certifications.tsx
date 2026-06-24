@@ -34,7 +34,8 @@ export function Certifications() {
                 View Certificate <ExternalLink size={12} />
               </span>
             </a>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
