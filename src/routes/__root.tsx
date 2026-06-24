@@ -77,9 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Neil Ian — Developer Portfolio" },
+      { title: "Mallari_Portfolio" },
       { name: "author", content: "Neil Ian R. Mallari" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Mallari_Portfolio" },
+      { name: "twitter:title", content: "Mallari_Portfolio" },
+      { name: "description", content: "A modern, responsive developer portfolio showcasing skills, experience, and projects with a dark cyber aesthetic." },
+      { property: "og:description", content: "A modern, responsive developer portfolio showcasing skills, experience, and projects with a dark cyber aesthetic." },
+      { name: "twitter:description", content: "A modern, responsive developer portfolio showcasing skills, experience, and projects with a dark cyber aesthetic." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/bgx73p1BM7XTmHDLKNTt2K73NKJ2/social-images/social-1782330449496-portfolio-front.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/bgx73p1BM7XTmHDLKNTt2K73NKJ2/social-images/social-1782330449496-portfolio-front.webp" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
