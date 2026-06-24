@@ -2,25 +2,25 @@ import { useEffect, useState } from "react";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { ArrowUp, AtSign, Award, Brain, Briefcase, Calendar, CheckCircle2, Code2, Download, ExternalLink, Facebook, Folder, GitFork, Github, GraduationCap, Linkedin, Mail, MapPin, Menu, Phone, Send, Sparkles, Star, Twitter, UserCircle2, Wrench, X } from "lucide-react";
 //#region src/assets/neil-logo.png
-var neil_logo_default = "/assets/neil-logo-D3qVDyq0.png";
+var neil_logo_default = "/bright-code-chronicle/assets/neil-logo-D3qVDyq0.png";
 //#endregion
 //#region src/assets/neil-profile.png
-var neil_profile_default = "/assets/neil-profile-BgZt6EQj.png";
+var neil_profile_default = "/bright-code-chronicle/assets/neil-profile-BgZt6EQj.png";
 //#endregion
 //#region src/assets/blockchain-cert.png
-var blockchain_cert_default = "/assets/blockchain-cert-BC1y0jQz.png";
+var blockchain_cert_default = "/bright-code-chronicle/assets/blockchain-cert-BC1y0jQz.png";
 //#endregion
 //#region src/assets/build-with-ai.jpg
-var build_with_ai_default = "/assets/build-with-ai-Eod7j-zM.jpg";
+var build_with_ai_default = "/bright-code-chronicle/assets/build-with-ai-Eod7j-zM.jpg";
 //#endregion
 //#region src/assets/its-cybersecurity.png
-var its_cybersecurity_default = "/assets/its-cybersecurity-B-Ei7Lo1.png";
+var its_cybersecurity_default = "/bright-code-chronicle/assets/its-cybersecurity-B-Ei7Lo1.png";
 //#endregion
 //#region src/assets/its-network-sec.png
-var its_network_sec_default = "/assets/its-network-sec-Y2zkA1si.png";
+var its_network_sec_default = "/bright-code-chronicle/assets/its-network-sec-Y2zkA1si.png";
 //#endregion
 //#region src/assets/github-js-workshop.png
-var github_js_workshop_default = "/assets/github-js-workshop-CZ7lTtEV.png";
+var github_js_workshop_default = "/bright-code-chronicle/assets/github-js-workshop-CZ7lTtEV.png";
 //#endregion
 //#region src/lib/portfolio-data.ts
 var PROFILE_IMAGE = neil_profile_default;
