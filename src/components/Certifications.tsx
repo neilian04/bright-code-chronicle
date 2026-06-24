@@ -1,6 +1,6 @@
 import { Award, ExternalLink } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import { CERTIFICATIONS } from "@/lib/portfolio-data";
+import { CERTIFICATIONS, CERT_COVERS } from "@/lib/portfolio-data";
 
 export function Certifications() {
   return (
