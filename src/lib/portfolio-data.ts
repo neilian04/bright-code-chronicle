@@ -1,18 +1,23 @@
-import logoAsset from "@/assets/neil-logo.png.asset.json";
-import profileAsset from "@/assets/neil-profile.png.asset.json";
-import blockchainCert from "@/assets/blockchain-cert.png.asset.json";
-import buildWithAi from "@/assets/build-with-ai.jpg.asset.json";
-import itsCyber from "@/assets/its-cybersecurity.png.asset.json";
-import itsNetSec from "@/assets/its-network-sec.png.asset.json";
-import githubJs from "@/assets/github-js-workshop.png.asset.json";
+import logoAsset from "@/assets/neil-logo.png";
+import profileAsset from "@/assets/neil-profile.png";
+import blockchainCert from "@/assets/blockchain-cert.png";
+import buildWithAi from "@/assets/build-with-ai.jpg";
+import itsCyber from "@/assets/its-cybersecurity.png";
+import itsNetSec from "@/assets/its-network-sec.png";
+import githubJs from "@/assets/github-js-workshop.png";
 
-export const PROFILE_IMAGE = profileAsset.url;
+console.log("LOGO:", logoAsset);
+console.log("PROFILE:", profileAsset);
+console.log("LOGO URL:", logoAsset.url);
+console.log("PROFILE URL:", profileAsset.url);
+
+export const PROFILE_IMAGE = profileAsset;
 const CERT_COVERS: Record<string, string> = {
-  "GitHub and JavaScript Workshop": githubJs.url,
-  "IT Specialist — Network Security": itsNetSec.url,
-  "IT Specialist — Cybersecurity": itsCyber.url,
-  "Blockchain Campus Conference 2024": blockchainCert.url,
-  "Build with AI": buildWithAi.url,
+"GitHub and JavaScript Workshop": githubJs,
+"IT Specialist — Network Security": itsNetSec,
+"IT Specialist — Cybersecurity": itsCyber,
+"Blockchain Campus Conference 2024": blockchainCert,
+"Build with AI": buildWithAi,
 };
 export { CERT_COVERS };
 
@@ -26,7 +31,7 @@ export const SITE = {
   email: "n.mallari.545046@umindanao.edu.ph",
   phone: "+63 964 1466 036",
   location: "Davao City, Philippines",
-  logo: logoAsset.url,
+  logo: logoAsset,
   github: "https://github.com/neilian04",
 };
 
