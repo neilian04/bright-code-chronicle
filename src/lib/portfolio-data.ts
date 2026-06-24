@@ -6,11 +6,6 @@ import itsCyber from "@/assets/its-cybersecurity.png";
 import itsNetSec from "@/assets/its-network-sec.png";
 import githubJs from "@/assets/github-js-workshop.png";
 
-console.log("LOGO:", logoAsset);
-console.log("PROFILE:", profileAsset);
-console.log("LOGO URL:", logoAsset.url);
-console.log("PROFILE URL:", profileAsset.url);
-
 export const PROFILE_IMAGE = profileAsset;
 const CERT_COVERS: Record<string, string> = {
 "GitHub and JavaScript Workshop": githubJs,
